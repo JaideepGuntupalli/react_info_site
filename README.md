@@ -36,6 +36,7 @@ MVP should be done by 26 Feb 2022.
 ### Links
 
 - Website: [Link to Deployment](#)
+- Figma: [Link to View-only Figma File](https://www.figma.com/file/5OE65gGoe2bncdOFwCiJel/ReactFacts-(Scrimba)?node-id=0%3A1)
 
 ## My process
 
