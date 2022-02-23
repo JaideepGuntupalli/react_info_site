@@ -5,23 +5,30 @@ import "./index.css";
 /**
 Challenge: 
 
-Part 2: 
-- Add a `header` element with a nested `nav` element. Inside the `nav`,
-  include a `img` element with the image of the React logo inside
-  (src="./react-logo.png") and make sure to set the width to something
-  more manageable so it doesn't take up the whole screen
-- Add an `h1` with some text describing the page. (E.g. "Reasons
-  I'm excited to learn React"). Place it above the ordered list.
-- Add a `footer` after the list that says: 
-    "© 20xx <last name here> development. All rights reserved."
-
- */
+- Add an `ul` inside the Header's `nav` and create
+  the following `li`s: "Pricing", "About", & "Contact"
+- Using flexbox, line up the nav items horizontally, and
+  put them inline with the React logo.
+- Change the image styling to happen in CSS instead of in-line
+  For practice, add a new class to the image in order to style it
+*/
 
 function Header() {
     return (
-        <header>
-            <nav>
+        <header className="py-5 shadow-grey-600 shadow-lg px-20">
+            <nav className="flex justify-between items-center">
                 <img src="./logo192.png" alt="react logo" className="w-20" />
+                <ul className="flex gap-16 text-xl">
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
             </nav>
         </header>
     );
@@ -29,7 +36,7 @@ function Header() {
 
 function Footer() {
     return (
-        <footer className="pt-10 italic text-gray-400">
+        <footer className="pt-10 italic text-gray-400 px-20">
             © 2022 Jaideep development. All rights reserved.
         </footer>
     );
@@ -37,7 +44,7 @@ function Footer() {
 
 function Heading() {
     return (
-        <h1 className="font-bold text-3xl py-2">
+        <h1 className="font-bold text-3xl py-2 my-2 px-20">
             Reasons I'm excited to learn React
         </h1>
     );
@@ -45,7 +52,7 @@ function Heading() {
 
 function List() {
     return (
-        <ol className="list-disc list-inside">
+        <ol className="list-disc list-inside px-20">
             <li>
                 It's a popular library, so I'll be able to fit in with the cool
                 kids!
@@ -57,7 +64,7 @@ function List() {
 
 function Page() {
     return (
-        <div className="pl-10 pt-5">
+        <div className="">
             <Header />
             <Heading />
             <List />
