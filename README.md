@@ -1,6 +1,6 @@
 # react-info-site
 
-This is the code base of [react-info-site](#).
+This is the code base of [react-info-site](https://react-info-site.vercel.app/).
 
 ## Table of contents
 
@@ -31,16 +31,17 @@ To be decided
 
 ### When will the project be complete?
 
-MVP should be done by 26 Feb 2022.
+MVP is done by 23 Feb 2022.
 
 ### Links
 
-- Website: [Link to Deployment](#)
-- Figma: [Link to View-only Figma File](https://www.figma.com/file/5OE65gGoe2bncdOFwCiJel/ReactFacts-(Scrimba)?node-id=0%3A1)
+-   Website: [Link to Deployment](https://react-info-site.vercel.app/)
+-   Figma: [Link to View-only Figma File](<https://www.figma.com/file/5OE65gGoe2bncdOFwCiJel/ReactFacts-(Scrimba)?node-id=0%3A1>)
 
 ## My process
 
 ### Built with
 
-- ReactJS
-- Tailwind CSS
+-   ReactJS
+-   JSX
+-   Tailwind CSS
