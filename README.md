@@ -36,7 +36,7 @@ MVP is done by 23 Feb 2022.
 ### Links
 
 -   Website: [Link to Deployment](https://react-info-site.vercel.app/)
--   Figma: [Link to View-only Figma File](<https://www.figma.com/file/5OE65gGoe2bncdOFwCiJel/ReactFacts-(Scrimba)?node-id=0%3A1>)
+-   Figma: [Link to View-only Figma File](https://www.figma.com/file/5OE65gGoe2bncdOFwCiJel/ReactFacts-(Scrimba)?node-id=0%3A1)
 
 ## My process
 
